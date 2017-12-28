@@ -1,0 +1,42 @@
+body {
+    background-color: #333;
+    color: white;
+}
+
+body {
+    padding-bottom: 3em;
+}
+
+a {
+    color: #ade;
+}
+a:visited, a:active {
+    color: #ade;
+}
+
+
+.page-header, .navbar {
+    margin: 0 0;
+    padding-top: 20px;
+    padding-bottom: 2em;
+    background: #455;
+    height: 100%;
+}
+
+.nav-link, .nav-link * {
+    height: 100%;
+    font-size: 24pt;
+    background-color: #555 !important;
+    text-align: justify;
+}
+.nav-link:hover, .nav-link *:hover {
+    color: #555 !important;
+    background-color: #ade !important;
+}
+.nav-link.active, .nav-link.active * {
+    background-color: #444 !important;
+}
+.nav-link.active:hover {
+    color: #ade !important;
+    background-color: #555 !important;
+}
